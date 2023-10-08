@@ -4,6 +4,15 @@
     padding: 0;
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    flex: 1;
+}
+
 html,
 body
 {
@@ -19,6 +28,7 @@ body
     outline: none;
 }
 
+ 
 
 .section
 {
@@ -34,6 +44,18 @@ body
     padding-right: 10%;
 }
 
+
+.section h1,
+.section h2 {
+    margin-bottom: -2.5em; /* place itms closer */
+}
+
+.section p {
+    text-transform: none;
+    width: 60%; 
+    font-size: 3vmin;
+    margin-top: -1.5em; /* place itms closer */
+}
 
 /* Button */
 .section button {
@@ -54,18 +76,6 @@ body
     background: #ffffff;
     color: #1e1a20;
   }
-
-.section h1,
-.section h2 {
-    margin-bottom: -2.5em; /* place itms closer */
-}
-
-.section p {
-    text-transform: none;
-    width: 50%; 
-    font-size: 3vmin;
-    margin-top: -1.5em; /* place itms closer */
-}
 
 section:nth-child(odd)
 {
