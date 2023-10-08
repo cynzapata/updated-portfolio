@@ -34,10 +34,12 @@ body
     padding-right: 10%;
 }
 
+
 /* Button */
 .section button {
-    width: 200px; 
-    height: 50px; 
+    width: 20%; /* Adjust the width as needed */
+    max-width: 200px; /* Set a maximum width if necessary */
+    height: 5vh; /* Adjust the height as needed */
     color: #ffffff;
     border-radius: 12px;
     border-color: #ffffff;
@@ -45,6 +47,7 @@ body
     font-size: 2vmin;
     cursor: pointer;
     font-family: 'Cabin', sans-serif;
+    margin-top: -18em; /* place itms closer */
 }
 
 .section button:hover {
@@ -52,11 +55,17 @@ body
     color: #1e1a20;
   }
 
+.section h1,
+.section h2 {
+    margin-bottom: -2.5em; /* place itms closer */
+}
+
 .section p {
     text-transform: none;
     width: 50%; 
     font-size: 3vmin;
-}  
+    margin-top: -1.5em; /* place itms closer */
+}
 
 section:nth-child(odd)
 {
