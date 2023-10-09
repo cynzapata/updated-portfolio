@@ -28,11 +28,61 @@ body
     outline: none;
 }
 
- 
+.row {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    background-color: #1e1a20; /* Add a background color for better visibility */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h3{
+    padding-top: 1em;
+    font-size: 5vmin;
+}
+
+.nav{
+    padding-top: 1%;
+}
+
+.col {
+    flex: 1;
+}
+
+h1 a {
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none; /* Remove underlines from links */
+    color: #ffeded; /* Set link color */
+    font-size: 2.8vmin;
+}
+.container {
+    margin-top: 2em;
+    font-family: 'Cabin', sans-serif;
+    position: relative;
+    color: #ffeded; /* Set link color */
+    font-size: 7vmin;
+    height: 100vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+  }
+
+  
+
+  .container p{
+    font-size: 3vmin;
+    padding-top: 2em;
+  }
+
+  .container a{
+    color: #ffeded; /* Set link color */
+    
+  }
 
 .section
 {
-    display:grid;
+    display:inline-grid;
     align-items: center;
     height: 100vh;
     position: relative;
@@ -44,17 +94,41 @@ body
     padding-right: 10%;
 }
 
+.projects-section{
+    padding-left: 30%;
+}
 
 .section h1,
 .section h2 {
     margin-bottom: -2.5em; /* place itms closer */
 }
 
-.section p {
+.about p {
     text-transform: none;
     width: 60%; 
     font-size: 3vmin;
-    margin-top: -1.5em; /* place itms closer */
+    margin-bottom: -4.5em; /* place itms closer */
+}
+
+
+.projects-section p {
+    text-transform: none;
+    width: 100%; 
+    font-size: 3vmin;
+    margin-bottom: -4.5em; /* place itms closer */
+}
+
+.contact p {
+    text-transform: none;
+    width: 60%; 
+    font-size: 3vmin;
+    margin-bottom: -4.5em; /* place itms closer */
+}
+
+
+
+.section a{
+    color: #ffeded;
 }
 
 /* Button */
@@ -69,7 +143,10 @@ body
     font-size: 2vmin;
     cursor: pointer;
     font-family: 'Cabin', sans-serif;
-    margin-top: -18em; /* place itms closer */
+}
+
+button a{
+    text-decoration: none; /* Remove underlines from links */
 }
 
 .section button:hover {
