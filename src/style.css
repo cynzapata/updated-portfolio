@@ -40,6 +40,12 @@ body
 h3{
     padding-top: 1em;
     font-size: 5vmin;
+    color: #7c6dee;
+}
+h4{
+    padding-top: 1em;
+    font-size: 3vmin;
+    color: #e5d4ed;
 }
 
 .nav{
@@ -65,14 +71,13 @@ h1 a {
     height: 100vh;
     padding-left: 10%;
     padding-right: 10%;
-    
   }
 
-  
 
   .container p{
     font-size: 3vmin;
     padding-top: 2em;
+
   }
 
   .container a{
@@ -145,12 +150,30 @@ h1 a {
     font-family: 'Cabin', sans-serif;
 }
 
+.container button {
+    width: 20%; /* Adjust the width as needed */
+    max-width: 200px; /* Set a maximum width if necessary */
+    height: 5vh; /* Adjust the height as needed */
+    color: #ffffff;
+    border-radius: 12px;
+    border-color: #ffffff;
+    background-color: #1e1a20;
+    font-size: 2vmin;
+    cursor: pointer;
+    font-family: 'Cabin', sans-serif;
+}
+
 button a{
     text-decoration: none; /* Remove underlines from links */
 }
 
 .section button:hover {
-    background: #ffffff;
+    background: #7c6dee;
+    color: #1e1a20;
+  }
+
+  .container button:hover {
+    background: #7c6dee;
     color: #1e1a20;
   }
 
@@ -158,3 +181,4 @@ section:nth-child(odd)
 {
     justify-content: flex-end;
 }
+

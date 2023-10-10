@@ -67,7 +67,7 @@ mesh1.position.x = 2
 mesh2.position.x = -2
 mesh3.position.x = 2
 
-scene.add(mesh1, mesh2, mesh3)
+// scene.add(mesh1, mesh2, mesh3)
 
 const sectionMeshes = [mesh1, mesh2, mesh3]
 
